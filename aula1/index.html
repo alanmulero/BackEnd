@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+    <h1>Cadastro de usuário e senha  usando Javascript</h1>
+    </header>
+    <hr>
+    <div class="dados">
+     
+    Cadastre uma senha com mais de 5 digitos : <input type="password" placeholder="Escolha um senha" id="cadastrar" autofocus>  
+    <br>  
+    <br>
+    Nome: <input type="text" placeholder="Informe seu nome."  id="nome">
+    <label for="senha">Senha:</label>
+    <input type="password" placeholder="Senha com mais de 5 caracteres."  id="senha">
+    <button onclick="valida(), func()" >Enviar</button>
+    </div>
+
+    <p id="resposta"></p>
+    <p id="quanto2"></p><p id="quanto"></p>
+    <p id="confirma"></p>
+    <p id="quanto3"></p>
+    <p id="erro"></p>
+    <script src="script.js"></script>
+</body>
+</html>
