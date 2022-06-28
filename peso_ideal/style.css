@@ -1,0 +1,33 @@
+body{
+    width: 1200px;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    color: cornflowerblue;
+    text-shadow: 2px 2px black;
+}
+
+img {
+
+    float: left;
+    margin-top: 15px;
+
+}
+
+input{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+#enviar{
+    margin-left: 15px;
+}
+#limpar{
+    margin-top: 25px;
+    margin-left: 120px;
+}
+p{
+    font-size: 20px;
+}

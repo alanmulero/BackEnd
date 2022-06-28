@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Peso ideal</title>
+</head>
+<body>
+    <header>
+        <h1>Programa em JavaScript para cálculo do peso ideal</h1>
+    </header>
+    <hr>
+</body>
+
+    <img src="peso.jpg.jpg" alt="Imagem de uma balança" class="foto">
+
+Nome:<input type="text" id="nome">
+<br>
+Peso :        <input type="text" id="peso" placeholder="Exemplo: 70">
+<br>
+Altura:<input type="text"  id="altura" placeholder="Exemplo: 1.78 - Use ponto">
+<input type="button" value="Enviar" onclick="calculo()">
+<br>
+<input type="button" value="Limpar campos" onclick="limpar()" id="limpar">
+
+<br>
+<br>
+<p id="resposta"></p>
+<script src="script.js"></script>
+</html>
